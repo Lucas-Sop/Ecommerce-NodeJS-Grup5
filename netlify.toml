@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"  # Ajusta el comando de construcción de tu proyecto
+  command = "npm start"  # Ajusta el comando de construcción de tu proyecto
   publish = "public"        # Carpeta de salida de tu proyecto
 
 [build.environment]
