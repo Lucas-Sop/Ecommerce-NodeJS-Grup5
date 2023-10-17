@@ -13,7 +13,9 @@ app.set('view engine', 'ejs');
 
 app.use('/', routes);
 
-
+app.get('/test', (req, res) => {
+    res.send('Esta es una ruta de prueba');
+});
 
 app.listen(port, () => {
     console.log(`La aplicacion está escuchando en http://localhost:${port}`);
