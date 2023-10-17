@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Syne', sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3em; /*48px*/
+    text-transform: uppercase;
+    color: #000;
+}
+
+h2 {
+    font-weight: 600 bold;
+    font-size: 1.375em; /*22px*/
+    text-transform: uppercase;
+    color: #000;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.188em; /*19px*/
+    text-transform: uppercase;
+    color: #000;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.063em; /*17px*/
+    color: #000;
+    margin: 0;
+}
+
+a {
+    font-size: 400;
+    font-size: 1em; /*16px*/
+    color: #000;
+}
+
+hr {
+    color: #c6c6c6;
+}
+ 
+    

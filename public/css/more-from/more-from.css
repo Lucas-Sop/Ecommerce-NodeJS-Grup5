@@ -1,0 +1,183 @@
+
+#top-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 9% 20px 12% ;
+} 
+
+#top-container h2 {
+    margin: 0;
+    font-size: 2.5vw;
+    color:black;
+    font-weight:900;
+}
+
+#buttons-container{
+    display:flex;
+}
+.button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    padding: 0;
+    width: 30px; /* Ancho del botón */
+    height: 30px; /* Altura del botón */
+    margin: 0 3px;
+    /* margin-right: 10px; */
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.button svg path {
+    fill: black;
+    transition: fill 0.3s;
+}
+
+.button:hover svg path {
+    fill: white;
+}
+
+/*----------------------------------------
+---------------imagenes y texto-----------
+------------------------------------------*/
+
+#container {
+    width: 80vw;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.row2{
+    flex-direction: column-reverse;
+}
+
+.col-md-6 {
+    flex: 1;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.container-text, .container-text2{
+    flex:1;
+}
+
+.img-container1, .img-container2{
+    flex:1;
+}
+
+.img-container1 img, .img-container2 img{
+    max-width: 100%;
+}
+.img-container2 {
+    flex: 1;
+    max-width: 100%; /* Asegura que el contenedor no sea más ancho que la imagen */
+  }
+ 
+.img-container1,.img-container2 {
+   width: 80vw
+  }
+
+.full-width-image {
+    padding: 50px 0px;
+    width: 100vw;
+    position: relative;
+   
+}
+
+.container-text .a-mas,.container-text2 .a-mas {
+    text-decoration: underline;
+    font-weight: bold;
+    color:black;
+    /* font-size:1.5vw; */
+}
+.container-text .a-mas:hover,.container-text2 .a-mas:hover{
+    color: red;
+}
+
+p {
+    font-size: 3vw; /* Tamaño de letra inicial */
+    transition: font-size 0.3s ease; /* Transición suave para el cambio de tamaño de letra */
+}
+
+.diseño-text{
+    font-size: 3vw; /* Tamaño de letra inicial */
+    transition: font-size 0.3s ease; /* Transición suave para el cambio de tamaño de letra */
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .row1{
+        flex-direction: row;
+    }
+    .row2{
+        flex-direction: row;
+    }
+    #top-container h2 {
+        font-size: 2.4vw;  
+    }
+    
+    .diseño-text{
+        font-size: 1.9vw; /* Tamaño de letra inicial */
+        transition: font-size 0.3s ease; /* Transición suave para el cambio de tamaño de letra */
+    }
+    
+    p {
+        font-size: 1.7vw; /* Tamaño de letra inicial */
+        transition: font-size 0.3s ease; /* Transición suave para el cambio de tamaño de letra */
+    }
+  
+  }
+  
+  @media only screen and (min-width: 1024px) {
+      #top-container h2 {
+        font-size: 2.2vw;   
+    }
+    .diseño-text{
+      font-size: 1.7vw; /* Tamaño de letra inicial */
+      transition: font-size 0.3s ease; /* Transición suave para el cambio de tamaño de letra */
+    }
+    p {
+      font-size: 1.5vw; /* Tamaño de letra inicial */
+      transition: font-size 0.3s ease; /* Transición suave para el cambio de tamaño de letra */
+    }
+   
+    
+  
+  }
+  
+  
+  @media only screen and (min-width: 1200px){
+    #top-container h2 {
+        font-size: 1.8vw;   
+    }
+   
+    .diseño-text{
+      font-size: 1.6vw; /* Tamaño de letra inicial */
+      transition: font-size 0.3s ease; /* Transición suave para el cambio de tamaño de letra */
+    }
+  
+    p {
+      font-size: 1.3vw; /* Tamaño de letra inicial */
+      transition: font-size 0.3s ease; /* Transición suave para el cambio de tamaño de letra */
+    }
+  
+  
+  }

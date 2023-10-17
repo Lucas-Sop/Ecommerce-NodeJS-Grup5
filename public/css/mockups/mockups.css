@@ -1,0 +1,167 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 85vw;
+    margin: 0 auto;
+    
+}
+
+/* ====== CATEGORIAS ====== */
+
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.text {
+    display: flex;   
+    gap: 10px;
+}
+
+
+.CATALOG{
+    color:#000;
+    font-weight: bold;
+}
+
+.colorSpecial {
+    color: #c6c6c6; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title{
+    display: none;
+}
+
+.container-category, .infoPersonal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+
+/* ==== Linea HR ===== */
+
+.rotated-element{
+    transform-origin: left top;
+    color:#000;
+    width: 100%;
+    height: 2px;
+    color: #000;
+}
+
+/* ==== Contenedor de Categorias ===== */
+
+.container{
+    margin: 0!important;
+    padding: 0!important;
+    min-width: 80vw;
+}
+
+
+.article-category {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#elemento1,#elemento2,#elemento3,
+#elemento4,#elemento5{
+    padding: 5px;
+}
+
+.article-category img {
+    height: 100%; /* Rellena el 100% de la altura del contenedor */
+    width: auto; /* Permite que el ancho se ajuste automáticamente para mantener la relación de aspecto */
+}
+
+.zocalo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.category-name {
+    flex: 1;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.zocalo .bi-arrow-right {font-size: 2rem;}
+.zocalo .bi-arrow-right:hover {transform: scale(1.5,1.5);}
+.zocalo  a:hover{transform: scale(1.5,1.5);}
+.alert a:hover{transform: scale(1.5,1.5); color: white;}
+
+.image-container {
+    height: 300px; /* Establece la altura fija deseada */
+    width: 100%; /* Permite que el ancho se ajuste automáticamente */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor */
+    background-color: rgba(239,244,248,255);
+    border: 1px solid #000;
+    text-align: center;
+    border-radius: 1%;
+    border: 2px solid rgba(0,0,0,0.2);    
+}
+
+.image-container img {
+  /* object-fit: cover; */
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.image-container:hover {
+    border: 2px solid rgba(0,0,0,0.5);
+    transform: scale(1.1,1.1);
+     z-index: 2; 
+    transition: all 0.3s ease;
+  }
+
+
+  
+/*---------------Tablet------------- */
+@media screen and (min-width:768px) {
+    
+    
+    .row #elemento2 .article-category,.row #elemento4 .article-category
+    {flex-direction: column-reverse;}
+
+    .title{display:block;}
+
+    .title h2{font-size: 25px;    }
+
+    
+
+
+} 
+
+/* ====== Correccion bootstrap entre 992-1023px ====== */
+@media screen and (min-width:992px){
+    .row #elemento4 .article-category
+    {
+    flex-direction: column;
+    }   
+    .row #elemento5 .article-category{
+        flex-direction: column-reverse;
+    } 
+}
+
+
+   
+
+
+
+
+  
+  

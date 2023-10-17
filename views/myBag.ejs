@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./partials/header_assets.ejs') %>
+
+  <link rel="stylesheet" href="/css/myBag/myBag.css">
+  <link rel="stylesheet" href="/css/body.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/footer.css">
+ 
+  <title>404 Página no encontrada</title>
+</head>
+
+<body>
+    <%- include('./partials/header.ejs') %>
+
+<main>
+    <section id="pInfo">
+
+        <div class="container">
+
+            <div class="infoPersonal">
+
+                <div class="text">
+                    <nav class="navInfoPersonal">
+                        <a href="#">Inicio <i class="bi bi-arrow-right"></i></a>
+                        <a href="#">Perfil <i class="bi bi-arrow-right"></i></a>
+                    </nav>
+                    <h3>Mi lista de deseos</h3>
+                </div>
+
+                <div class="title">
+                    <h2>Mi lista de deseos</h2>
+                </div>
+            </div>
+            <hr>
+
+            <div class="usernameTitle">
+                <h1><span class="titleSpecial">Bienvenido,</span> Usuario</h1>
+            </div>
+
+            <hr>
+
+            <div class="personalData">
+
+                <div class="list">
+                   
+                    <button class="btnList">
+                        <i class="bi bi-person-fill iconBtn"></i> 
+                        Informacion Personal 
+                        <i class="bi bi-arrow-right arrowRight"></i> 
+                        <i class="bi bi-arrow-left arrowLeft"></i> 
+                        <i class="bi bi-arrow-up arrowUp"></i>
+                    </button>
+
+                    <button class="btnList" disabled>
+                        <i class="bi bi-handbag iconBtn"></i> 
+                        Mi bolsa 
+                        <i class="bi bi-arrow-right arrowRight"></i> 
+                        <i class="bi bi-arrow-left arrowLeft"></i> 
+                        <i class="bi bi-arrow-up arrowUp"></i>
+                    </button>
+
+                    <button class="btnList">
+                        <i class="bi bi-heart iconBtn"></i> 
+                        Mi lista de deseos
+                        <i class="bi bi-arrow-right arrowRight"></i> 
+                        <i class="bi bi-arrow-left arrowLeft"></i> 
+                        <i class="bi bi-arrow-up arrowUp"></i>
+                    </button>
+
+                    <button class="btnList">
+                        <i class="bi bi-wallet2 iconBtn"></i> 
+                        Detalles del pago
+                        <i class="bi bi-arrow-right arrowRight"></i> 
+                        <i class="bi bi-arrow-left arrowLeft"></i> 
+                        <i class="bi bi-arrow-up arrowUp"></i>
+                    </button>
+
+                    <button class="btnList">
+                        <i class="bi bi-truck iconBtn"></i> 
+                        Detalles de la entrega
+                        <i class="bi bi-arrow-right arrowRight"></i> 
+                        <i class="bi bi-arrow-left arrowLeft"></i> 
+                        <i class="bi bi-arrow-up arrowUp"></i>
+                    </button>
+
+                    <button class="btnList">
+                        <i class="bi bi-arrow-counterclockwise iconBtn"></i> 
+                        Historial de pedidos 
+                        <i class="bi bi-arrow-right arrowRight"></i> 
+                        <i class="bi bi-arrow-left arrowLeft"></i> 
+                        <i class="bi bi-arrow-up arrowUp"></i>
+                    </button>
+
+                    <button class="btnOut iconOut"><i class="bi bi-box-arrow-in-right iconStyle"></i>Cerrar sesion</button>
+            
+                </div>
+
+                <hr>
+
+                <div class="myBag">
+
+                    <div class="bagHeader">
+                        
+                        <div class="bagTitle">
+                            <h2>Mi bolsa</h2>
+                        </div>
+
+                        <div class="btnOption">
+                            <button><i class="bi bi-gear rueda"></i> Configuracion</button>
+                        </div>
+
+                    </div>
+
+                    <div class="containerProduct">
+
+                        <div class="product">
+
+                            <div class="deleteProduct">
+                                <button><i class="bi bi-trash"></i></button>
+                            </div>
+
+                            <div class="imageProduct">
+                                <img src="/img/myBag/myBag_photo.jpg" alt="producto del usuario">
+                            </div>
+
+                            <div class="dataProduct">
+
+                                <div class="headerProduct">
+
+                                    <div class="titleProduct">
+
+                                        <div class="nameProduct">
+                                            <h2>Adicolor Contempo Tee</h2>
+                                        </div>
+
+                                        <div class="iconPlus">
+                                            <button>
+                                                <i class="bi bi-three-dots-vertical stylePlus"></i>
+
+                                            </button>
+
+    
+                                        </div>
+
+                                    </div>
+
+                                    <div class="containerPrice">
+                                        <div class="priceProduct">
+                                            <p>Precio: </p>
+                                        </div>
+
+                                        <div class="numberPrice">
+                                            <p>$40</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="descriptionProduct">
+
+                                    <div class="infoProduct">
+
+                                        <div class="infoTitleProduct">
+                                            <p>Tamaño:</p>
+                                        </div>
+
+                                        <div class="descriptionInfoProduct">
+                                            <p>XS</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="character">
+                                        <i class="bi bi-circle-fill iconCircle"></i>
+                                    </div>
+
+                                    <div class="infoProduct">
+
+                                        <div class="infoTitleProduct">
+                                            <p>Color:</p>
+                                        </div>
+
+                                        <div class="descriptionInfoProduct">
+                                            <p>Maravilla Blanca</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="character">
+                                        <i class="bi bi-circle-fill iconCircle"></i>
+                                    </div>
+
+                                    <div class="infoProduct">
+
+                                        <div class="infoTitleProduct">
+                                            <p>Cantidad: </p>
+                                        </div>
+
+                                        <div class="descriptionInfoProduct">
+                                            <p>1 par</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="btnProduct">
+                                <button><i class="bi bi-arrow-right iconStyle"></i></button>
+                            </div>
+
+                        </div>
+
+                        
+
+                        <div class="product">
+
+                            <div class="deleteProduct">
+                                <button><i class="bi bi-trash"></i></button>
+                            </div>
+
+                            <div class="imageProduct">
+                                <img src="/img/myBag/myBag_photo.jpg" alt="producto del usuario">
+                            </div>
+
+                            <div class="dataProduct">
+
+                                <div class="headerProduct">
+
+                                    <div class="titleProduct">
+
+                                        <div class="nameProduct">
+                                            <h2>Teofil essentials pants</h2>
+                                        </div>
+
+                                        <div class="iconPlus">
+                                            <button>
+                                                <i class="bi bi-three-dots-vertical stylePlus"></i>
+
+                                            </button>
+
+    
+                                        </div>
+
+                                    </div>
+
+                                    <div class="containerPrice">
+                                        <div class="priceProduct">
+                                            <p>Precio: </p>
+                                        </div>
+
+                                        <div class="numberPrice">
+                                            <p>$60</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="descriptionProduct">
+
+                                    <div class="infoProduct">
+
+                                        <div class="infoTitleProduct">
+                                            <p>Tamaño:</p>
+                                        </div>
+
+                                        <div class="descriptionInfoProduct">
+                                            <p>XS</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="character">
+                                        <i class="bi bi-circle-fill iconCircle"></i>
+                                    </div>
+
+                                    <div class="infoProduct">
+
+                                        <div class="infoTitleProduct">
+                                            <p>Color:</p>
+                                        </div>
+
+                                        <div class="descriptionInfoProduct">
+                                            <p>Maravilla blanca</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="character">
+                                        <i class="bi bi-circle-fill iconCircle"></i>
+                                    </div>
+
+                                    <div class="infoProduct">
+
+                                        <div class="infoTitleProduct">
+                                            <p>Cantidad: </p>
+                                        </div>
+
+                                        <div class="descriptionInfoProduct">
+                                            <p>1 par</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="btnProduct">
+                                <button><i class="bi bi-arrow-right iconStyle"></i></button>
+                            </div>
+
+                        </div>
+
+
+                        <div class="product">
+
+                            <div class="deleteProduct">
+                                <button><i class="bi bi-trash"></i></button>
+                            </div>
+
+                            <div class="imageProduct">
+                                <img src="/img/myBag/myBag_photo.jpg" alt="producto del usuario">
+                            </div>
+
+                            <div class="dataProduct">
+
+                                <div class="headerProduct">
+
+                                    <div class="titleProduct">
+
+                                        <div class="nameProduct">
+                                            <h2>Ozweego shoes</h2>
+                                        </div>
+
+                                        <div class="iconPlus">
+                                            <button>
+                                                <i class="bi bi-three-dots-vertical stylePlus"></i>
+
+                                            </button>
+
+    
+                                        </div>
+
+                                    </div>
+
+                                    <div class="containerPrice">
+                                        <div class="priceProduct">
+                                            <p>Precio: </p>
+                                        </div>
+
+                                        <div class="numberPrice">
+                                            <p>$96</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="descriptionProduct">
+
+                                    <div class="infoProduct">
+
+                                        <div class="infoTitleProduct">
+                                            <p>Tamaño:</p>
+                                        </div>
+
+                                        <div class="descriptionInfoProduct">
+                                            <p>5-5</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="character">
+                                        <i class="bi bi-circle-fill iconCircle"></i>
+                                    </div>
+
+                                    <div class="infoProduct">
+
+                                        <div class="infoTitleProduct">
+                                            <p>Color:</p>
+                                        </div>
+
+                                        <div class="descriptionInfoProduct">
+                                            <p>Felicidad blanca</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="character">
+                                        <i class="bi bi-circle-fill iconCircle"></i>
+                                    </div>
+
+                                    <div class="infoProduct">
+
+                                        <div class="infoTitleProduct">
+                                            <p>Cantidad: </p>
+                                        </div>
+
+                                        <div class="descriptionInfoProduct">
+                                            <p>1 par</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="btnProduct">
+                                <button><i class="bi bi-arrow-right iconStyle"></i></button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="containerPrice">
+
+                        <div class="titlePrice">
+                            <h2>Precio total</h2>
+                        </div>
+
+                        <div class="containerItems">
+
+                            <div class="itemOne">
+
+                                <div class="textGrey">
+                                    <p>3 items</p>
+                                </div>
+
+                                <div class="Itemprice">
+                                    <p>$220.00</p>
+                                </div>
+
+                            </div>
+
+                            <div class="itemOne">
+
+                                <div class="textGrey">
+                                    <p>Precio original</p></div>
+
+                                <div class="Itemprice">
+                                    <p>$244.00</p>
+                                </div>
+
+                            </div>
+
+                            <div class="itemOne">
+
+                                <div class="textGrey">
+                                    <p>impuesto de ventas</p>
+                                </div>
+
+                                <div class="Itemprice">
+                                    <p> - </p>
+                                </div>
+
+                            </div>
+
+                            <div class="itemOne">
+
+                                <div class="textGrey">
+                                    <p>delivery</p>
+                                </div>
+
+                                <div class="Itemprice">
+                                    <p>free</p>
+                                </div>
+
+                            </div>
+
+                            <div class="itemOne">
+
+                                <div class="textGrey">
+                                    <p>Venta</p>
+                                </div>
+
+                                <div class="Itemprice">
+                                    <p>- $24.00</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="total">
+
+                        <div class="totalTitle">
+
+                            <div class="titleTotal">
+                                <h2>Total</h2>
+
+                            </div>
+
+                            <div class="totalPrice">
+
+                                <h2>$220.00</h2>                          
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="btnBag">
+
+                        <div class="btnEdit">
+                            <button>Comprar productos</button>
+                        </div>
+
+                        <div class="btnDelete">
+                            <button><i class="bi bi-tag"></i> Aplicar codigo de promocion</button>
+                        </div>
+
+                    </div>
+
+
+                    <div class="needHelp">
+
+                        <div class="titleHelp">
+                            <h2>¿Necesitas ayuda?</h2>
+                        </div>
+
+                        <div class="linksHelp">
+                           
+                            <div class="links">
+                                <a href="#">Productos</a>
+                                <a href="#">Promociones y vales</a>
+                                <a href="#">Informacion de la empresa</a>
+                            </div>
+
+                            <div class="links">
+                                <a href="#">Ordenador</a>
+                                <a href="#">Devolucion y reembolso</a>
+                                <a href="#">Cuenta y newsletter</a>
+                            </div>
+                
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>    
+    </section>
+</main>       
+
+<%- include('./partials/footer.ejs') %>
+
+<script src="./js/myWishlist_photo"></script>
+<script src="./js/myBag.js"></script>
+</body>
+</html>

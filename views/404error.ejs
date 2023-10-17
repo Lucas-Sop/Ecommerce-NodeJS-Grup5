@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./partials/header_assets.ejs') %>
+  <%- include('./partials/bootstrap/bootstrapstyle.ejs') %>
+  <link rel="stylesheet" href="/css/404error/404error.css">
+  <link rel="stylesheet" href="/css/body.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/footer.css">
+ 
+  <title>404 Página no encontrada</title>
+</head>
+
+<body>
+    <%- include('./partials/header.ejs') %>
+    <main id="section-error">
+        <div class="error-code 404">
+          <div class="404">
+            <span>404</span>
+          </div>
+          <div class="error-title">
+            ALGO SALIÓ MAL...
+          </div>
+          <div class="error-message">
+            No podemos encontrar la página que estás buscando. ¡Pero no te preocupes, puedes encontrar otro camino!
+          </div>
+          <div class="div-button">
+            <button class="continue-button">
+              CONTINUAR COMPRANDO
+            </button>
+          </div>
+        </div>
+    </main> 
+    <%- include('./partials/footer.ejs') %>
+<script src="./js/header.js"></script>
+<script src="./js/myWishlist_photo"></script>
+</body>
+</html>
