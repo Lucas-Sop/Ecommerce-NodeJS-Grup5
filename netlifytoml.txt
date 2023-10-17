@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"  # Ajusta el comando de construcción de tu proyecto
+  publish = "public"        # Carpeta de salida de tu proyecto
+
+[build.environment]
+  NODE_VERSION = "18.17.1"  # Versión de Node.js que necesitas (ajusta según tus requerimientos)
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
