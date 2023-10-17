@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./partials/header_assets.ejs') %>
+    <link rel="stylesheet" href="/css/body.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/login/login.css">
+ 
+  <title>PAGINA DE login</title>
+</head>
+
+<body>
+    <%- include('./partials/header.ejs') %>
+    <main>
+        <section id="pInfo">
+
+            <div class="container">
+
+                <div class="infoPersonal">
+
+                    <div class="text">
+                        <nav class="navInfoPersonal">
+                            <a href="#">Inicio <i class="bi bi-arrow-right"></i></a>
+                            <a href="#">Perfil <i class="bi bi-arrow-right"></i></a>
+                        </nav>
+                        <h3>Informacion Personal</h3>
+                    </div>
+
+                    <div class="title">
+                        <h2>Informacion Personal</h2>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="usernameTitle">
+                    <h1><span class="titleSpecial">Bienvenido,</span> Usuario</h1>
+                </div>
+
+                <hr>
+
+                <div class="personalData">
+
+                    <div class="list">
+                       
+                        <button class="btnList">
+                            <i class="bi bi-person-fill iconBtn" disabled></i> 
+                            Informacion Personal 
+                            <i class="bi bi-arrow-right arrowRight"></i> 
+                            <i class="bi bi-arrow-left arrowLeft"></i> 
+                            <i class="bi bi-arrow-up arrowUp"></i>
+                        </button>
+
+                        <button class="btnList">
+                            <i class="bi bi-handbag iconBtn"></i> 
+                            Mi bolsa 
+                            <i class="bi bi-arrow-right arrowRight"></i> 
+                            <i class="bi bi-arrow-left arrowLeft"></i> 
+                            <i class="bi bi-arrow-up arrowUp"></i>
+                        </button>
+
+                        <button class="btnList" id="btnWhislist">
+                            <i class="bi bi-heart iconBtn"></i> 
+                            Mi lista de deseos
+                            <i class="bi bi-arrow-right arrowRight"></i> 
+                            <i class="bi bi-arrow-left arrowLeft"></i> 
+                            <i class="bi bi-arrow-up arrowUp"></i>
+                        </button>
+
+                        <button class="btnList">
+                            <i class="bi bi-wallet2 iconBtn"></i> 
+                            Detalles del pago
+                            <i class="bi bi-arrow-right arrowRight"></i> 
+                            <i class="bi bi-arrow-left arrowLeft"></i> 
+                            <i class="bi bi-arrow-up arrowUp"></i>
+                        </button>
+
+                        <button class="btnList">
+                            <i class="bi bi-truck iconBtn"></i> 
+                            Detalles de la entrega
+                            <i class="bi bi-arrow-right arrowRight"></i> 
+                            <i class="bi bi-arrow-left arrowLeft"></i> 
+                            <i class="bi bi-arrow-up arrowUp"></i>
+                        </button>
+
+                        <button class="btnList">
+                            <i class="bi bi-arrow-counterclockwise iconBtn"></i> 
+                            Historial de pedidos 
+                            <i class="bi bi-arrow-right arrowRight"></i> 
+                            <i class="bi bi-arrow-left arrowLeft"></i> 
+                            <i class="bi bi-arrow-up arrowUp"></i>
+                        </button>
+
+                        <button class="btnOut iconOut"><i class="bi bi-box-arrow-in-right iconStyle"></i>Cerrar sesion</button>
+
+                
+                    </div>
+
+                    <hr>
+
+                    <div class="personalInfo">
+
+                        <div class="titlePersonalInfo">
+                            <h2>Informacion Personal</h2>
+                        </div>
+
+                        <form action="">
+
+                            <div class="containerOption">
+
+                                <div class="option">
+                                    <label for="">Nombre</label>
+                                    <input type="text">
+                                </div>
+
+                                <div class="option">
+                                    <label for="">Tu contraseña de adiClub</label>
+                                    <input type="text">
+                                </div>
+
+                            </div>
+                            
+                            <div class="containerOption">
+
+                                <div class="option">
+                                    <label for="">Genero</label>
+                                    <input type="text">
+                                </div>
+
+                                <div class="option">
+                                    <label for="">Email</label>
+                                    <input type="email">
+                                </div>
+
+                            </div>
+
+
+                            <div class="containerOption">
+
+                                <div class="option">
+                                    <label for="">Fecha de nacimiento</label>
+                                    <input type="text">
+                                </div>
+
+                                <div class="option">
+                                    <label for="">Tu numero de telefono</label>
+                                    <input type="email">
+                                </div>
+
+                            </div>
+
+                            <div class="containerBtnForm">
+
+                                <div class="btnEdit">
+                                    <button>Editar cuenta</button>
+                                </div>
+
+                                <div class="btnDelete">
+                                    <button> <i class="bi bi-trash"></i> Eliminar cuentas</button>
+                                </div>
+
+                            </div>
+
+                        </form>
+                        
+
+                        <div class="needHelp">
+
+                            <div class="titleHelp">
+                                <h2>¿Necesitas ayuda?</h2>
+                            </div>
+
+                            <div class="linksHelp">
+                               
+                                <div class="links">
+                                    <a href="#">Productos</a>
+                                    <a href="#">Promociones y vales</a>
+                                    <a href="#">Informacion de la empresa</a>
+                                </div>
+
+                                <div class="links">
+                                    <a href="#">Ordenador</a>
+                                    <a href="#">Devolucion y reembolso</a>
+                                    <a href="#">Cuenta y newsletter</a>
+                                </div>
+                    
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            
+
+
+            </div>
+
+        </section>
+    </main>
+    <%- include('./partials/footer.ejs') %>
+
+<script src="./js/wishlist.js"></script>
+</body>
+</html>

@@ -2,13 +2,22 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.render('myBag');
+    res.render('wishlist');
 });
 
-// router.get('/myBag', (req, res) => {
-//     res.render('myBag');
-// });
+ router.get('/wishlist', (req, res) => {
+    res.render('wishlist');
+});
 
+router.get('/category', (req, res) => {
+    res.render('category');
+});
+router.get('/login', (req, res) => {
+    res.render('login');
+});
+router.get('/checkPage', (req, res) => {
+    res.render('checkPage');
+});
 router.get('/404error', (req, res) => {
     res.render('404error');
 });

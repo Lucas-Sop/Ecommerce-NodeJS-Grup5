@@ -43,4 +43,3 @@ cerrarPlus.addEventListener("click", () =>{
 
 
 
-overflow:content;

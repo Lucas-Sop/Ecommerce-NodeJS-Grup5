@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./partials/header_assets.ejs') %>
+    <link rel="stylesheet" href="/css/body.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/checkPage/checkPage.css">
+ 
+  <title>PAGINA DE PAGO</title>
+</head>
+
+<body>
+    <%- include('./partials/header.ejs') %>
+    <main>
+        <section id="checkoutPage">
+
+            <div class="container">
+
+                <div class="infoPersonal">
+
+                    <div class="text">
+                        <nav class="navInfoPersonal">
+                            <a href="#">Inicio <i class="bi bi-arrow-right"></i></a>
+                            <a href="#">Mi bolsa <i class="bi bi-arrow-right"></i></a>
+                        </nav>
+                        <h3>Pagina de pago</h3>
+                    </div>
+
+                    <div class="title">
+                        <h2>Pagina de pago</h2>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="init">
+
+                    <div class="sectionPage">
+
+                        <div class="sectionActive">
+                            <h2>1. Opcion de delivery</h2> <i class="bi bi-arrow-right arrowRightDisable"></i> <i class="bi bi-arrow-down arrowDownActive"></i>
+                        </div>
+    
+                        <hr>
+
+                        <div class="sectionDisable">
+                            <h2>2. Opcion de pago</h2><i class="bi bi-arrow-right arrowRightActive"></i> <i class="bi bi-arrow-down arrowDownDisable"></i>
+                            
+                        </div>
+    
+                        <hr>
+
+                        <div class="sectionDisable">
+                            <h2>3. Revision de orden</h2><i class="bi bi-arrow-right arrowRightActive"></i> <i class="bi bi-arrow-down arrowDownDisable"></i>
+                        </div>
+    
+                        <hr>
+                    </div>
+
+                    <hr class="finalSectionPage">
+    
+
+                    <div class="presentation">
+    
+                        <div class="welcome">
+    
+                            <div class="titleWelcome">
+                                <h3>¡Bienvenido de vuelta, usuario!</h3>
+                            </div>
+    
+                            <div class="textWelcome">
+                                <p>Me alegro de verte de nuevo. Ordenemos tu entrega...</p>
+                            </div>
+    
+                        </div>
+    
+                        <div class="imagePresentation">
+                            <img src="/img/checkPage/lukas-eggers-xcZvvG6a4tI-unsplash.jpg" alt="imagen de presentacion">
+                        </div>
+    
+                    </div>
+
+
+                </div>
+
+
+                <div class="heroContainer">
+
+                    <form class="heroOne">
+
+                        <div class="info">
+
+                            <div class="titleInfo">
+                                <h2>Tu informacion</h2>
+                            </div>
+
+                            <hr>
+
+                          
+
+                                <div class="form">
+                                    <input type="text" placeholder="Primer Nombre*">
+                                    <input type="text" placeholder="Ultimo Nombre*">
+                                </div>
+
+                                <div class="specialForm">
+                                    <input type="" placeholder="Comience a escribir la dirección*
+                                    ">
+                                    <a href="#">Ingresa tu email manualmente</a>
+                                </div>
+
+                                <div class="form">
+                                    <input type="email" placeholder="Email*">
+                                    <input type="tel" placeholder="Numero de Telefono *">
+                                </div>
+
+                            
+
+                        </div>
+
+                        <div class="typeDelivery">
+
+                            <div class="deliveryTitle">
+                                <h2>Tipo de delivery</h2>
+                            </div>
+                            
+                            <hr class="hrDelivery">
+
+                            <div class="optionDelivery">
+
+                                <div class="delivery">
+                                    <button type="button">Levantar <i class="bi bi-check2-square check"></i></button>
+                                    <hr>
+                                </div>
+
+                                <div class="delivery">
+                                    <button type="button">Levantar <i class="bi bi-check2-square check"></i></button>
+                                    <hr>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="nearestPoint">
+
+                            <div class="nearestTitle">
+                                <h2>Los puntos mas cercanos en el dnipro</h2>
+                            </div>
+                            
+                            <hr class="hrNearestPoint">
+
+                            <div class="nearest">
+
+                                <div class="point">
+
+                                    <button type="button" class="option">
+
+                                        <div class="optionTitle">
+                                            <h3>Trc "caravan"</h3>
+                                            <i class="bi bi-check2-square checkTwo"></i>
+                                        </div>
+
+                                        <div class="optionText">
+                                            <p>Nyzhn'odniprovs'ka St,17</p>
+                                        </div>
+                                        
+                                        <span class="colorSpecial"><p>Martes - Domingo, 10:00 - 20:00</p></span>
+                                        <hr>
+                                    </button>
+
+                                    <button type="button" class="option">
+                                        <div class="optionTitle">
+                                            <h3>Trc "Most city"</h3>
+                                            <i class="bi bi-check2-square checkTwo"></i>
+                                            
+                                        </div>
+
+                                        <div class="optionText">
+                                            <p>Hlinky St,2</p>
+                                            <span class="colorSpecial""><p>Martes - Domingo, 10:00 - 22:00</p></span>
+                                            
+                                        </div>
+                                        <hr>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="btnHeroOne">
+                            <div class="btnEdit">
+                                <button>Guardar y continuar</button>
+                            </div>
+
+                            <div class="btnDelete">
+                                <button> <i class="bi bi-tag"></i>Aplicar codigo de promo</button>
+                            </div>
+
+                        </div>
+                        
+                    </form>
+                    
+                    <hr>
+                   
+
+                    <div class="heroTwo">
+
+                        <div class="orderDetails">
+
+                            <div class="orderTitle">
+                                <h2>Detalles del pedido</h2>
+                            </div>
+
+                            <div class="order">
+
+                                <div class="imageOrder">
+                                    <img src="/img/checkPage/checkPage_photo.jpg" alt="foto del producto">
+                                </div>
+
+                                <div class="orderDescription">
+
+                                    <div class="descriptionTitle">
+                                        <h3>Ozweggo shoes</h3>
+                                    </div>
+
+                                    <div class="descriptionText">
+
+                                        <div class="textDescription">
+                                            <div class="textTitle">
+                                                <span class="colorSpecial"><p>tamaño:</p></span>
+                                            </div>
+                                            <div class="textText"><p>5-5</p></div>
+                                        </div>
+
+                                        <div class="textDescription">
+                                            <div class="textTitle">
+                                                <span class="colorSpecial"><p>Color</p></span>
+                                            </div>
+                                            <div class="textText">
+                                                <p>Bliss</p>
+                                            </div>
+                                        </div>
+                                        <div class="textDescription">
+                                            <div class="textTitle">
+                                                <span class="colorSpecial"><p>Cantidad:</p></span>
+                                            </div>
+                                            <div class="textText">
+                                                <p>1 par</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="orderSummary">
+
+                            <div class="summaryTitle">
+                                <h2>Resumen del pedido</h2>
+                            </div>
+
+                            <div class="orSummary">
+
+                                <div class="summaryList">
+                                    <div class="listTitle">
+                                        <span class="colorSpecial"><p>1 item</p></span>
+                                    </div>
+
+                                    <div class="listText">
+                                        <p>$96.00</p>
+                                    </div>
+                                </div>
+
+                                <div class="summaryList">
+                                    <div class="listTitle">
+                                        <span class="colorSpecial"><p>Precio original</p></span>
+                                    </div>
+
+                                    <div class="listText">
+                                        <p>$120.00</p>
+                                    </div>
+                                </div>
+
+                                <div class="summaryList">
+                                    <div class="listTitle">
+                                        <span class="colorSpecial"><p>impuesto de ventas</p></span>
+                                    </div>
+
+                                    <div class="listText">
+                                        <p> - </p>
+                                    </div>
+                                </div>
+
+                                <div class="summaryList">
+                                    <div class="listTitle">
+                                        <span class="colorSpecial"><p>Delivery</p></span>
+                                    </div>
+
+                                    <div class="listText">
+                                        <p> FREE</p>
+                                    </div>
+                                </div>
+
+                                <div class="summaryList">
+                                    <div class="listTitle">
+                                        <span class="colorSpecial"><p>Venta</p></span>
+                                    </div>
+
+                                    <div class="listText">
+                                        <p> - $24.00</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            
+                        </div>
+                        
+                        <hr>
+
+                        <div class="total">
+
+                            <div class="totalTitle">
+
+                                <div class="titleTotal">
+                                    <h2>Total</h2>
+
+                                </div>
+ 
+                                <div class="totalPrice">
+
+                                    <h2>$96.00</h2>                          
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+    </main>
+    <%- include('./partials/footer.ejs') %>
+
+<script src="./js/wishlist.js"></script>
+</body>
+</html>
