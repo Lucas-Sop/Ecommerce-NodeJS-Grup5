@@ -1,6 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
+router.get('/', (req, res) => {
+    res.render('myBag');
+});
+
 router.get('/myBag', (req, res) => {
     res.render('myBag');
 });
