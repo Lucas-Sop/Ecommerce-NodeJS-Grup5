@@ -5,9 +5,9 @@ router.get('/', (req, res) => {
     res.render('myBag');
 });
 
-router.get('/myBag', (req, res) => {
-    res.render('myBag');
-});
+// router.get('/myBag', (req, res) => {
+//     res.render('myBag');
+// });
 
 router.get('/404error', (req, res) => {
     res.render('404error');
